@@ -1,0 +1,394 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del equipo</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head> 
+<body onLoad="MM_preloadImages('5_mayo.jpg','imagenes/imagen13.jpg','imagenes/imagen15.jpg','monumento2.jpg','Zaragoza_m2.jpg','museo1.jpg','conflicto2.jpg','museo2.jpg','Atlixco.png')"> 
+ <div data-role="page"id="Principal" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+     <h1>Batalla del 5 de Mayo</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Batalla del 4 de Mayo</h2>
+           </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+           <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Batalla del 5 de Mayo</h2>
+           </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Monumentos de la batalla</h2>
+           </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Inicio del Conflicto</h2>
+           </a>
+         </li>
+          <li class="ui-first-child ui-last-child">
+           <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Heroes de la Batalla</h2>
+           </a>
+         </li>
+      </ul>
+      </div>
+      </div>
+      
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/5_mayo.jpg" alt="5_mayo" title="5_mayo" id="wows1_0"/></li>
+		<li><img src="data1/images/atlixco.png" alt="Atlixco" title="Atlixco" id="wows1_1"/></li>
+		<li><img src="data1/images/conflicto.jpg" alt="conflicto" title="conflicto" id="wows1_2"/></li>
+		<li><img src="data1/images/conflicto2.jpg" alt="conflicto2" title="conflicto2" id="wows1_3"/></li>
+		<li><img src="data1/images/general_ignacio_zaragoza.jpg" alt="General_Ignacio_Zaragoza" title="General_Ignacio_Zaragoza" id="wows1_4"/></li>
+		<li><img src="data1/images/miguel_negrete.jpg" alt="Miguel_Negrete" title="Miguel_Negrete" id="wows1_5"/></li>
+		<li><img src="data1/images/monumento2.jpg" alt="monumento2" title="monumento2" id="wows1_6"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/museo2.jpg" alt="image slider" title="museo2" id="wows1_7"/></a></li>
+		<li><img src="data1/images/zaragoza_m2.jpg" alt="Zaragoza_m2" title="Zaragoza_m2" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="5_mayo"><span><img src="data1/tooltips/5_mayo.jpg" alt="5_mayo"/>1</span></a>
+		<a href="#" title="Atlixco"><span><img src="data1/tooltips/atlixco.png" alt="Atlixco"/>2</span></a>
+		<a href="#" title="conflicto"><span><img src="data1/tooltips/conflicto.jpg" alt="conflicto"/>3</span></a>
+		<a href="#" title="conflicto2"><span><img src="data1/tooltips/conflicto2.jpg" alt="conflicto2"/>4</span></a>
+		<a href="#" title="General_Ignacio_Zaragoza"><span><img src="data1/tooltips/general_ignacio_zaragoza.jpg" alt="General_Ignacio_Zaragoza"/>5</span></a>
+		<a href="#" title="Miguel_Negrete"><span><img src="data1/tooltips/miguel_negrete.jpg" alt="Miguel_Negrete"/>6</span></a>
+		<a href="#" title="monumento2"><span><img src="data1/tooltips/monumento2.jpg" alt="monumento2"/>7</span></a>
+		<a href="#" title="museo2"><span><img src="data1/tooltips/museo2.jpg" alt="museo2"/>8</span></a>
+		<a href="#" title="Zaragoza_m2"><span><img src="data1/tooltips/zaragoza_m2.jpg" alt="Zaragoza_m2"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <h4>Luis David Delgado Jimenez</h4>
+      <h4> Aplicacion 6 </h4>
+        <img src="res/android/mdpi.png" width="56" height="46">
+   
+</div>
+</div>      
+<div data-role="page"id="page2" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Batalla del 4 de Mayo</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div ><h2 align="justify">
+       <div data-role="collapsible" data-content-theme="false">
+       <h1> General Tomás O'Horan</h1>
+         <div>
+          <p>Fue un general de gran importancia en la batalla del 4 de mayo          </p>
+          <p align="justify">Todaví a el 5 siguiente, el general O'Horán con l a tropa  a sus órdenes, emprendió el regreso para la ciudad de Puebla,  población a la que entró al anochecer, cuando el grueso del  Cuerpo de Ejército de Oriente ya habí a rechazado victoriosamente  el ataque de los franceses. Esa noche se celebraron en  l a Angelópolis las dos victorias alcanzadas, una el día 4 sobre  los traidores del general Márquez , y la otra, sobre los franceses  del general Lorencez, lograda ese propio día 5.  Antes de concluir deseo hacer hincapié en que el milita r  republicano que mand ó en jefe esta memorable acción del 4 de  mayo de 1862 no fue el general Antonio Carbajal, como lo  aseguran algunas personas, sino que lo fue el general Tomá s  O'Horán, </p>
+          <p align="center"><img src="General_Tomas_O.jpg" width="426" height="400" align="middle">                   
+         </div>
+      </div>
+         <p align="justify">La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México. Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</p>
+         <p align="justify">Haci a las 11 de la mañana , cuando las tropas republicanas  pasaban por el pueblo de San Gregorio Azomp a (unos 10  kilómetros al suroeste de Cholula), se encontraron con unos  500 jinetes reaccionarios que el general Márque z habí a destacado  hacia Cholula . Se cambiaron algunos tiros entre ambos  adversarios y, después que los republicanos se desplegaron para  atacar a sus enemigos, éstos emprendieron la retirada para el  pueblo de Atlixco , en donde se encontraba el grueso de su  fuerza. Durante su marcha retrógrada fueron perseguidos por  los jinetes del general Carbajal, a los que personalmente dirigió  el general O'Horán.  </p>
+         <p align="justify">Pocas horas después, al llegar al puente cercano al rancho  de los Molinos, en donde el camino cruzaba la profunda barranca  de márgene s abruptas en cuyo fondo corre el río Alseseca  (unos 7 Kms. al noreste de Atlixco), los reaccionarios se  establecieron en él y trataron de disputar el paso a los republicanos;  éstos nuevamente se desplegaron, desbordaron la posición  enemiga y con todo brío forzaron el paso del puente a  los gritos victoriosos de "Viv a México v "Muera n los traidores",  obligando a sus enemigos a emprender la retirada hasta el  pueblo de Atlixco, en cuyos aledaños el general Márque z todav  ía presentó alguna resistencia. Fue obligado finalmente a retirarse  para el rumbo de Izúcar con toda su fuerza, dejando  abandonadas en Atlixco unas piezas de artillería y otros pertrechos.  </p>
+         <p align="justify"> Hacia las 6 de la tarde de ese mismo día, después de una  larga jornada, la tropa republicana ocupó el pueblo de Atlixco  y el general O'Horán rindió</p>
+         <p align="justify"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','Atlixco.png',1)"><img src="Atlixco.jpg" width="755" height="254" id="Image16"></a></p>
+       </div>
+       </div>
+       
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Luis David Delgado Jimenez</h4>
+        <h4> Aplicacion 6 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page3" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Batalla del 5 de Mayo</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+         A las 9:15 de la mañana del 5 de mayo, los franceses aparecieron en el horizonte, avanzando desde la cercana Hacienda de Rementería, cruzando fuego con las guerrillas de caballería que se batían en retirada y que no se replegaron hasta que las líneas francesas estuvieron formadas y listas para avanzar. La batalla se inició en forma a las 11:15 de la mañana, anunciándose con un cañonazo desde el Fuerte de Guadalupe y acompañado por los repiques de las campanas de la ciudad. En ese momento se dio una maniobra sorpresiva: la columna francesa, que venía avanzando en orden de oriente a poniente, se dividió en dos: la primera, compuesta por aproximadamente 4000 hombres y protegida con su artillería, dio un violento viraje hacia la derecha y se dirigió hacia los fuertes; mientras que la segunda columna, compuesta por el resto de la infantería, quedó como reserva. <br>
+       
+         <div data-role="collapsible" data-content-theme="false">
+           <h3 align="center">5 de mayo</h3>
+           <div>
+             <p><img src="5_mayo.jpg" width="422" height="350" align="middle"></p>
+           </div>
+         </div>
+         Mientras, cuando la segunda columna llegó al Fuerte de Guadalupe protegida por una línea de tiradores, Porfirio Díaz acudió en auxilio de los Rifleros de San Luis Potosí, que estaban a punto de ser rodeados. Movió en columna al Batallón Guerrero, a las órdenes del coronel Jiménez, y le ganó el terreno a los franceses. Para apoyar envió al resto de las tropas de Oaxaca, con los coroneles Espinoza y Loaeza a la cabeza, con lo que se logró expulsar al enemigo de las cercanías. El éxito alentó a Díaz, que destacó al Batallón Morelos con dos piezas de artillería a la izquierda, mientras por la derecha los Rifleros de San Luis Potosí se reponían de la pelea, antecedidos por una carga de los Lanceros de Oaxaca, trabándose un combate cuerpo a cuerpo que hizo retroceder a los atacantes.<br>
+           En aquel momento, luego de ser repelidos por última vez, las efectivos franceses empezaron a huir, completamente dispersados. Se replegaron a la hacienda Los Álamos, para finalmente retirarse hacia Amozoc.
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','5_mayo.jpg',1)"><img src="5_mayo2.jpg" width="602" height="293" id="Image12" align="middle"></a></p>
+      
+       </div>
+      </div>
+      
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Luis David Delgado Jimenez</h4>
+        <h4> Aplicacion 6 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+<div data-role="page"id="page4" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Monumentos de la Batalla</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+         <h1>
+           <center>
+             Monumento a la victoria del 5 de Mayo
+           </center>
+         </h1>
+         <p>Justo antes de llegar a los Fuertes, uno pasa por este monumento, y muchas veces pasa casi desapercibido, pero no debe ser así ya que es de gran importancia. El Monumento a la Victoria (5 de mayo) fue hecha por el escultor y pintor mexicano Ernesto Tamariz.<br>
+         Recibe su nombre debido a que aquí el ejercito mexicano libró una poderosa batalla contra el ejercito francés, durante la Segunda Intervención Francesa el 5 de mayo de 1862. Dicha batalla fue liderada por el General Ignacio Zaragoza, que estaba a cargo del Ejercito de Oriente. La batalla fue ganada por el ejercito mexicano, lo que llenó de orgullo al país, y sobre todo a la gente de Puebla.</p>
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','monumento2.jpg',1)"><img src="monumento.jpg" width="640" height="427" id="Image14"></a>
+         </p>
+         <div data-role="collapsible" data-content-theme="false">
+        <h3>Pagina Oficial del Monumento</h3>
+           <div>
+             <CENTER>
+               <p>&nbsp;</p>
+             </CENTER>
+             <div data-role="main" class="ui-content" align="center">
+               <div style="width:25%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+                   <li class="ui-first-child ui-last-child"> <a href="https://www.yelp.com.mx/biz/monumento-a-la-victoria-5-de-mayo-puebla" target="_self" data-role="button">
+                     <h2>Pagina Oficial Puebla</h2>
+                   </a> </li>
+  </ul>
+</div>
+</div>
+</div>
+</div>
+         <h1>
+           <center>
+             Monumento a los heroes del 5 de Mayo
+           </center>
+         </h1>
+         Este monumento está justo frente al Parque Analco, sobre el Boulevard 5 de Mayo; es pequeño pero creo que es uno de los más representativos de la historia esta ciudad. Su nombre es el Monumento a los Héroes del 5 de Mayo, y es un pequeño homenaje a los soldados y pobladores que se enfrentaron al ejercito francés el 5 de mayo de 1862, durante la Segunda Invasión Francesa en México.
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','Zaragoza_m2.jpg',1)"><img src="Zaragoza_m.jpg" width="652" height="360" id="Image13"></a></p>
+         <div data-role="collapsible" data-content-theme="false">
+           <h3>Pagina Oficial del Monumento </h3>
+           <div>
+             <CENTER>
+               <h3>&nbsp;</h3>
+             </CENTER>
+             <div data-role="main" class="ui-content" align="center">
+               <div style="width:25%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+                   <li class="ui-first-child ui-last-child"> <a href="https://www.yelp.com.mx/biz/monumento-a-los-h%C3%A9roes-de-5-de-mayo-puebla" target="_self" data-role="button">
+                     <h2>Pagina Oficial Puebla</h2>
+                   </a> </li>
+</ul>
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+</ul>
+               </div>
+             </div>
+           
+       </div>
+      </div>
+         <h1>MUSEO INTERACTIVO DE LA BATALLA DEL 5 DE MAYO      </h1>
+         <p>Una de las más grandes batallas que ha librado el país tuvo lugar en la ciudad de Puebla, la batalla del 5 de mayo de 1862. En la zona de los fuertes, en el mismo escenario del pasado, se ubica el museo interactivo.
+      <p>El recorrido por el museo utiliza la tecnología más puntera para narrar las acciones militares y la biografía de héroes nacionales como Negrete, Díaz y Zaragoza. Pantallas táctiles, proyecciones en 3-D y contenidos interactivos descargables en dispositivos ofrecen una experiencia única al visitante.</p>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','museo2.jpg',1)"><img src="museo1.jpg" width="750" height="563" id="Image"></a></p>
+      <div data-role="collapsible" data-content-theme="false">
+        <h3>Pagina Oficial del Museo</h3>
+        <div>
+          <CENTER>
+            <div data-role="main" class="ui-content" align="center">
+               <div style="width:25%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+                   <li class="ui-first-child ui-last-child"> <a href="http://puebla.travel/es/museos/item/museo-interactivo-de-la-batalla-del-5-de-mayo" target="_self" data-role="button">
+                     <h2>Pagina Oficial Puebla </h2>
+                   </a> </li>
+</ul>
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+</ul>
+               </div>
+             </div>
+          </CENTER>
+         
+        </div>
+         </div>
+</div>
+        <div>
+          <div data-role="main" class="ui-content" align="center">
+            <div style="width:25%;"> </div>
+          </div>
+        </div>
+      </div>
+      <p>&nbsp;</p>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Luis David Delgado Jimenez</h4>
+        <h4> Aplicacion 6 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+  </div>
+</div> 
+
+<div data-role="page"id="page5" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Inicio del Conflicto</h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div>
+         <p>Debido principalmente a la cantidad de deudas, , Inglaterra y España subscribieron el Convenio de Londres, por el cual se comprometieron a intervenir por el uso de la fuerza en México para reclamar sus derechos como acreedores, mientras tanto el Presidente Benito Juárez declaró suspendidos los compromisos adquiridos y aplazó pagar la deuda a las naciones europeas. Tras desembarcar en Veracruz, España e Inglaterra aceptaron las explicaciones mexicanas dadas en los Tratados de La Soledad, los cuales tenían como fundamento, el respeto a la soberanía territorial, el reconocimiento de las naciones acreedoras al Estado Mexicano, la entrada al terreno de las negociaciones para llegar a acuerdos en común, que beneficiaría tanto a la República Mexicana, como a los intereses de las potencias invasoras, y por último, se permitiría que los soldados de los tres países se establecieran en las ciudades mexicanas de Orizaba, Córdoba y Tehuacán durante las negociaciones, debido a lo malsano del clima imperante en el puerto de Veracruz; en caso contrario, los soldados de las tres potencias se retirarían a las costas de Veracruz para así comenzar las hostilidades.</p>
+         <p> Solo los representantes de España e Inglaterra comprendieron la situación que guardaba la República Mexicana, al analizar los argumentos, decidieron negociar de manera independiente ante la autoridad mexicana, privilegiando a la nación mexicana con un triunfo diplomático, que dadas las difíciles circunstancias, permitió encauzar esfuerzos posteriormente hacia la intervención del Imperio Francés; pero ellos tenían otros planes. </p>
+         <p>El primero, el pronto pago con intereses de la deuda, esto incluía un cobro exagerado por parte de la &quot;Casa Jecker&quot;, debido a destrozos causados durante la Guerra de Reforma, dos, tener control total y absoluto de las aduanas, así como intervención directa en la política económica del país, y tres, el más común, imponer un gobierno monárquico en México, con miras a contrarrestar el creciente poderío de los Estados Unidos. Sin embargo, un mal entendido por parte de los representantes de las tres potencias, aunado a los ambiciosos planes de la representación francesa de sus propios tratados, inicio pronto las hostilidades con el ejército de Napoleón III, dando por iniciada la Segunda Intervención Francesa en México. Al frente del ejército francés venía Charles Ferdinand Latrille, Conde de Lorencez, quien partió de Veracruz en dirección a la ciudad de México, pasando por Tehuacán y avanzado hacia el oeste. Para contrarrestar este avance, el gobierno mexicano de Benito Juárez creó una unidad bélica conocida como Ejército de Oriente, primeramente al mando del General José López Uraga y posteriormente del general Ignacio Zaragoza, hasta entonces Ministro de Guerra y Marina y veterano de la guerra con los Estados Unidos y de la Guerra de Reforma.</p>
+         <p> El 16 de abril de 1862, el General Juan Prim, Jefe de la Fuerzas Españolas escribía a Ignacio Zaragoza, que no habiéndose puesto de acuerdo los representantes de los tres países, solo los españoles e ingleses aceptarían los términos que Benito Juárez propusiese en los Tratados de la Soledad, y se reembarcarían de regreso a casa. También puso en alerta a Zaragoza que los franceses no aceptaron esto, pues vieron fallas en este decreto, y que exigían pronto el pago, pues se veían amenazados por los prusianos y no tenían con que solventar una guerra, por lo cual comenzarían una invasión hacia la capital de la República, supuestamente para poder obtener el pago de la deuda. Después del fracaso de los Tratados de La Soledad y el retiro de las flotas españolas e inglesas tras la escaramuza entre galos e hispanos en Córdoba, el ejército francés al mando del general Charles Ferdinand Latrille, Conde de Lorencez, sale de Orizaba hacia el oeste. Había llegado envuelto en laureles de victoria, colgando de sus blasones los nombres de sus triunfos obtenidos en Solferino, Magenta, Argelia y Sebastopol, reflejaba esa actitud la insolencia y subestimación de Lorencez, al enviar al Mariscal de Francia Lannes, el siguiente mensaje: “Somos tan superiores a los mexicanos en organización, disciplina, raza, moral y refinamiento de sensibilidades, que le ruego anunciarle a Su Majestad Imperial, Napoleón III, que a partir de este momento y al mando de nuestros 6.000 valientes soldados, ya soy dueño de México”. Era un sueño absurdo el de Lorencez querer conquistar un país cinco veces más poblado que Francia, pero sostenida por la guerra civil que vivía México, y la no amenaza de Estados Unidos, pues también se encontraba en guerra civil. </p>
+         <p>A toda prisa, el gobierno mexicano encabezado por el presidente Benito Juárez ordena al general Ignacio Zaragoza la organización de una unidad bélica, la cuál se denominaría Cuerpo de Ejército de Oriente, compuesto de cerca de 10 mil hombres, escaso número para el vasto territorio que deben cubrir (el Oriente de la República Mexicana). El general Ignacio Zaragoza, hasta entonces Ministro de Guerra y Marina y veterano de la guerra sostenida con los Estados Unidos y de la Guerra de Reforma toma el mando luego de la ineficiencia demostrada por el general José López Uraga como General en Jefe del Ejército de Oriente, dirigiéndose a los límites entre Veracruz y Puebla, a fin de reconocer el avance del ejército francés, que ya entraba en combate con las tenaces guerrillas veracruzanas, las que no dejaban de acosarle. Parte de este ejército se ve diezmado en el trágico accidente de La explosión de la colecturía de los diezmos de San Andrés en el que mueren 1322 soldados pertenecientes a la brigada de Oaxaca que fueron enviados ahí por el general Ignacio Mejía, pese a lo cual Zaragoza jura batir a los franceses. </p>
+         <p>El 22 de marzo ordena el fusilamiento de Manuel Robles Pezuela, detenido en Tuxtepec junto con algunos jefes conservadores que lograron escapar de las tropas del General José María Arteaga. Acusado de &quot;Alta Traición&quot; al buscar alianzas con los invasores, Pezuela se niega a creer que la sentencia será ejecutada, ya que piensa que al general Arteaga no le convendría darle un mártir a los conservadores. Sin embargo, palidece y su esperanza desaparece cuando se entera que la orden no es de él, sino del general Zaragoza. Fusilado el General Robles Pezuela en un costado de la iglesia de San Andrés Chalchicomula mientras los conservadores reúnen tropas en número de 1.200 hombres cerca de Atlixco, iniciando la llamada Batalla Antidiplomática. Por otro lado, un contingente del Ejército de Oriente de 4.000 efectivos con el general Zaragoza a la cabeza, sale de la cañada de Ixtapa para cortarle el paso a los franceses. </p>
+         <p>El 28 de abril, en las Cumbres de Acultzingo tiene lugar el primer encuentro bélico formal entre el Cuerpo de Ejército de Oriente y el Ejército Expedicionario Francés. Zaragoza no pretende disputarle el paso, sino más bien foguear a sus soldados, muchos de ellos faltos de experiencia, y al mismo tiempo causarle algunas pérdidas al enemigo. Las águilas napoleónicas pierden quinientos hombres, mientras las bajas mexicanas ascienden a medio centenar, entre ellos el bravo general José María Arteaga quien, tras haber batido a una columna francesa y llegado a solo cincuenta pasos de la reserva de Lorencez, ésta hizo fuego sobre la tropa mexicana y Arteaga cae del caballo, siendo herido en la pierna derecha que más tarde le sería amputada. Cumplida la misión, el general Zaragoza retorna con sus hombres a Ixtapa. “Pelean bien los franceses...” afirma Zaragoza, “...pero los nuestros matan bien”. Sin embargo, aún tiene desconfianza sobre el desempeño real de sus tropas en un combate en campo abierto, es decir, en batalla campal; luego de su derrota el invasor se posesiona de las Cumbres de Acultzingo.</p>
+         <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','conflicto2.jpg',1)"><img src="conflicto.jpg" width="725" height="291" id="Image15"></a></p>
+       </div>
+      </div>
+      
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Luis David Delgado Jimenez</h4>
+        <h4> Aplicacion 6 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+<div data-role="page"id="page6" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1>Heroes de la Batalla</h1>
+      </div>
+      <h1 align="center">Miguel Negrete
+  </h1>
+      <div data-role="collapsible" data-content-theme="false">
+       <h2>Miguel Negrete</h2>
+         <div>
+          <p align="center">
+           <img src="Miguel_Negrete.jpg" width="460" height="405">          
+         </div>
+      </div>        
+        <p>Miguel Negrete Novoa fue un general militar nacido el 8 de mayo de 1824 en Tepeaca, Puebla; es considerado el principal héroe de la batalla del 5 de mayo de 1862 después del General Ignacio Zaragoza. </p>
+           <p>Negrete fue investido con el cargo de general en 1862 por orden de Ignacio Zaragoza, fue el único militar nacido en Tepeaca con el grado de General de División, por ese motivo,  su recuerdo se mantiene vivo como en monumento en la Plaza de Armas, o la inscripción de su nombre en letras de oro en el muro de honor del Congreso del Estado. </p>
+           <h2 align="center">Carrera militar </h2>
+           <p>Miguel Negrete nació en el seno de una familia humilde del agro poblano, comenzó su carrera militar como soldado raso en 1843, recibió el grado de sargento primero en 1847.</p>
+           <p> Su primera acción importante como militar fue en 1847, cuando combatió en la invasión de México y en la pérdida de una gran parte del territorio nacional ante los Estados Unidos, en aquella ocasión, Negrete fue parte de las tropas mexicanas concentradas en la capital del país.</p>
+           <p> Cuando los norteamericanos atacaron la garita, la compañía de Negrete salió al combate. Llegaron a las cercanías de Chapultepec, donde finalmente se rindieron al ser ocupada la ciudad por los norteamericanos.</p>
+           <p> Negrete se resistió a la derrota y junto a otros civiles siguió el combate, que se prolongó hasta la noche, pero los mexicanos se retiraron poco a poco, lo que obligó al poblano a huir por la madrugada hacia Tepeaca.</p>
+           <p>Miguel Negrete poblanoMostró su apoyo para el derrocamiento de Antonio López de Santa Ana, se adhirió al Partido Liberal y a la revolución de Ayutla, donde recibió el grado de oficial subalterno y posteriormente el rango de Coronel. </p>
+           <p>En 1857, continuó con su participación en el lado liberal, por lo que fue merecedor del grado de general de brigada y el mando de las fuerzas armadas liberales de Morelos e inició una campaña contra las fuerzas conservadoras en el sur. </p>
+           <p>El territorio del sur era dominado por los conservadores, por lo que las malas condiciones, sin alimentos, agua o municiones llevaron a las fuerzas comandadas por Negrete a rendirse y aceptaron la oferta de servir a las fuerzas conservadoras. Como parte de la compañía de Miguel Miramón, se le asignó el sector septentrional del frente de las fuerzas conservadoras en el Puerto de Veracruz, donde Benito Juárez y los liberales se concentraban. Negrete aprovechó el momento en que su compañía se alejó lo suficiente del ejército conservador para cambiarse de bando y regresar con los liberales.</p>
+           <p> En Veracruz, Benito Juárez emitió proclamas contra los conservadores, pero contaban con poco tiempo para reformar la sociedad, además, los levantamientos de los conservadores comenzaron, manteniendo ocupados a todos los generales, incluyendo a Negrete; para 1861 llegó la invasión de Francia y su momento más destacado como militar. </p><h2 align="center">Manuel Negrete y su participación en la Batalla del 5 de Mayo
+           </h2>
+           <p>Negrete tomó parte de un intentó en vano por repelerlos en Veracruz, por lo que su compañía tuvo que replegarse hacia Puebla, donde volvieron a reagruparse, ahora bajo el mando del general Ignacio Zaragoza. </p>
+           <p>A Manuel Negrete se le asignó el mando de 1,200 miembros de la Segunda División de la guardia nacional de Puebla, encargadas de defender las colinas de Loreto y Guadalupe y el terreno circundante, zona de vital importancia para las tropas francesas, ya que la captura de los fuertes expondrían a las fuerzas poblanas a un ataque desde las alturas. </p>
+           <p>Tras la victoria del Ejército Mexicano, la unidad de Negrete fue la que más bajas registró, en los cerros de Loreto y Guadalupe. Miguel Negrete monumentoLa actuación de la unidad de Negrete fue alabada por Ignacio Zaragoza y la consideró como uno de los principales factores para el éxito de la batalla, por lo que se pidió su ascenso como General de División, llamado al que no hizo caso Ignacio Mejía, ministro de Guerra, pero por la insistencia de Zaragoza, el 25 de mayo de 1863 se le dio el cargo.</p>
+           <p> Durante la presidencia de Benito Juárez también asumió el cargo de Ministro de Guerra, posterior al triunfo liberal, Negrete dirigió varios levantamientos contra el gobierno mexicano, en especial para la defensa del movimiento agrario. Negrete se levantó ante la dictadura de Porfirio Díaz y para la defensa del pueblo indígena, acusado de traición fue capturado y encarcelado en 1886. El 4 de mayo de 1887, Díaz firmó una orden para que se le dejara en libertad.</p>
+           <p> A su salida, Manuel Negrete optó por la vida civil y pasó el resto de su vida en tranquila soledad hasta su fallecimiento el 1 de enero 1987, quedando en la historia como uno de los héroes cuya vida ha sido de las más biografiadas, de acuerdo al cronista José Francisco Jiménez Villa.</p>
+           <p><div data-role="main" class="ui-content" align="center">
+               <div style="width:25%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+                   <li class="ui-first-child ui-last-child"> <a href="http://elblogdepuebla.blogspot.mx/2011/08/miguel-negrete-novoa-biografia-corta.html" target="_self" data-role="button">
+                     <h2>Biografia de Miguel Negrete  </h2>
+                   </a> </li>
+</ul>
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+</ul>
+               </div>
+             </div>
+          </CENTER>
+           <p align="center">
+  <h1 align="center">Ignacio Zaragoza</h1>
+           </p>
+           <div data-role="collapsible" data-content-theme="false">
+       <h2>Ignacio Zaragoza</h2>
+         <div>
+          <p align="center"><img src="General_Ignacio_Zaragoza.jpg" width="445" height="418">          
+         </div>
+        </div>
+           <p align="justify"><strong>I</strong><span class="table-stripe">gnacio    Zaragoza Seguin nació el 24 de marzo de 1829 en la ciudad de Presidio de La Bahía de Espíritu Santo, actualmente Goliad, al sur de Texas, Estados Unidos. Fue el segundo hijo del matrimonio formado por Miguel    Zaragoza Valdez y María de Jesús Seguin Martínez. A los cinco años de edad, y tras la independencia del estado de Texas, su familia se muda a Matamoros en el Estado de Tamaulipas donde inicia sus estudios y diez años después, se muda a Monterrey, Nuevo León Durante algunos años se inclina por la carrera sacerdotal, pero la abandona, quizá para continuar con el ejemplo de su padre quien era soldado de infantería.</span></p><h2 align="center">Carrera Militar
+           </h2>
+           <p align="justify" class="table-stripe">Durante la intervención de Estados Unidos de América en México, entre 1846 y 1848, el joven    Zaragoza intentó alistarse como cadete, pero fue rechazado.  Desde lejos vio como México perdía más de la mitad de su territorio en una guerra desigual.</p>
+           <p align="justify" class="table-stripe">Fue hasta 1953 que logró ingresar al ejército de Nuevo León, primero como sargento, y luego como capitán de su regimiento. En 1854 decide adherirse al Plan de Ayutla, movimiento que intentaba derrocar al dictador Antonio López de Santa Anna y junto con 100 seguidores toma las armas para defender la causa liberal, misma que no abandonaría hasta el momento de su muerte.</p>
+           <p align="justify" class="table-stripe">En 1860 luchó en favor de la Constitución de 1857. Participó en la batalla de Calpulalpan haciendo frente a las fuerzas conservadoras. Con a esta batalla, ganada fácilmente gracias a un valeroso contraataque, los liberales pusieron fin a la Guerra de Reforma e instauraron las bases de un nuevo sistema republicano.</p>
+           <p align="justify" class="table-stripe">Durante el mandato de Benito Juárez,    Zaragoza fue reconocido por su alto sentido de lealtad y patriotismo por ello sirvió al país como ministro de Guerra y Marina, cargo que desempeño hasta 1861.</p>
+           <p align="justify" class="table-stripe">Pero el pasaje más sobresalientes en la vida de este militar, fue cuando la naciente república mexicana, ahogada financieramente por todas las deudas y gastos de las guerras, decide, a través de <em>Benito Juárez</em>, decretar una moratoria y suspender los pagos de la deuda externa.</p>
+           <p align="justify" class="table-stripe">Frente a este escenario, España, Francia e Inglaterra, países a los que se debía la mayor parte de la deuda, inconformes, integran una alianza tripartita y con sus fuerzas armadas llegan al puerto de Veracruz.  Tras nuevas negociaciones España e Inglaterra deciden retirarse, pero Francia, en un franco deseo por construir un nuevo gobierno imperial y extender sus dominios en América, decidió proseguir con su incursión en territorio mexicano.</p>
+           <p align="justify" class="table-stripe">Rápidamente el presidente Juárez organiza una unidad bélica y pone al mando al general Ignacio    Zaragoza . El ejército, compuesto por casi 10 mil hombres, es nombrado como el Ejército de Oriente y tienen como misión enfrentar a contingente francés de unos 6,000 soldados comandado por el insolente general<em> Charles Ferdinand Latrille</em>.</p>
+           <p align="justify" class="table-stripe">Zaragoza sabía de antemano que tenía una difícil responsabilidad y una clara desventaja tanto en armamento como en disciplina, pues el ejército mexicano tenía una precaria situación y carecía prácticamente de todo excepto de valor. Sabiendo de qué estaban hechos sus hombres,    Zaragoza les dice:</p>
+           <p align="justify" class="table-stripe">&ldquo;Nuestros enemigos son los primeros ciudadanos del mundo, pero vosotros sois los primeros hijos de México y os quieren arrebatar vuestra patria&rdquo;</p>
+           <p align="justify" class="table-stripe">Zaragoza , parte hacia el oriente y decide enfrentar a los invasores con un primer contingente de 4,000 efectivos, en la zona conocida como Cumbres de Acultzingo. En este primer enfrentamiento,    Zaragoza no pretendía detener el paso de los franceses, sino simplemente foguear a sus soldados ya que muchos de ellos no tenían experiencia alguna en las batallas.</p>
+           <p align="justify" class="table-stripe">En esta primer escaramuza el potente ejército napoleónico pierde a casi 500 hombres, mientras que los mexicanos solamente pierden a 50 soldados. Ante este suceso    Zaragoza retorna a su cuartel comentando a sus soldados &ldquo;Pelean bien los franceses, pero los nuestros matan mejor&rdquo;.</p>
+           <p align="justify" class="table-stripe">Ante la orden de Juárez de detener a los franceses en Puebla,    Zaragoza prepara una rápido plan para la defensa de la plaza. Sube a lo alto de cerro de Guadalupe y decide montar dos guarniciones en los reductos de los fuertes deLoreto y Guadalupe de 1,200 hombres y hacer frente al ejército francés con otros 3,500 hombres.</p>
+           <p align="justify" class="table-stripe">La batalla inicia el 5 de mayo cuando el ejército intervencionista arriba a la ciudad de Puebla. A las 11:15 de la mañana el primer contingente mexicano formado por soldados e indígenas zacapoaxtlas hacen frente a los franceses y logran rechazar los fuertes ataques de los extranjeros.</p>
+           <p align="justify" class="table-stripe">Rápidamente Zaragoza , coloca soldados en la hondonada ente ambos cerros y forma un ángulo entre los fuertes y otras zonas clave en la defensa del lugar . El fuego de artillería lanzado desde el fuerte de Guadalupe, logra diezmar parte del ejército francés, pero los aguerridos y experimentados &ldquo;<em>zuavos</em>&rdquo;, logran ascender hasta el Fuerte deGuadalupe en un intento por tomarlo, pero son parados en seco por el cuerpo de fusileros que se encontraban ahí apostados.</p>
+           <p align="justify" class="table-stripe">Los <em>zuavos</em> se retiran en orden para reorganizarse y retomar el avance, saben que la lucha será dura pero confían en que los mexicanos serán vencidos fácilmente en una lucha cuerpo a cuerpo. Los franceses se reagrupan y son apoyados por el Primero y Segundo Regimiento de Infantería de Marina y se abalanzan sobre el resto de la línea mexicana.</p>
+           <p align="justify" class="table-stripe">Son recibidos por las bayonetas mexicanas en una sangrienta lucha cuerpo a cuerpo donde son repelidos uno a uno de forma valerosa. Para complementar la defensa mexicana, los Carabineros de Pachuca a caballo, cargan sobre el resto de la columna disparando sus rifles y lanzando golpes de mandobles sobre el ya diezmado y sorprendido ejército francés que se retiró de la posición.</p>
+           <p align="justify" class="table-stripe">Al finalizar la batalla,    Zaragoza envía como parte de su informe de batalla un mensaje muy significativo, &ldquo;Las armas nacionales se han cubierto de gloria. Las tropas francesas se portaron con valor en el combate y su jefe con torpeza&rdquo; enfatizando quizá la pedantería del <em>General Ferdinand</em> que desde antes de iniciar cualquier enfrentamiento bélico con los mexicanos había expresado:</p>
+           <p align="justify" class="table-stripe">&ldquo;Somos tan superiores a los mexicanos en organización, en disciplina, raza, moral y refinamiento de sensibilidades, que desde este momento, al mando de nuestros 6,000 valientes soldados, ya soy el amo de México&rdquo;</p>
+           <p align="justify" class="table-stripe">Por esta gran hazaña, Ignacio    Zaragoza es considerado como Héroe de la Libertad y prócer de la Batalla de Puebla. Desde entonces, la ciudad de Puebla, fue nombrada por decreto presidencial como Puebla de    Zaragoza , así como el estado fronterizo de Coahuila de    Zaragoza .</p>
+           <p class="table-stripe">Ignacio    Zaragoza contrajo nupcias con Rafaela Padilla de la Garza con quien tuvo 3 hijos. Su matrimonio únicamente duró 5 años pues su esposa falleció de pulmonía.</p>
+           <p align="justify" class="table-stripe">El 8 de septiembre de 1862, a la edad de 33 años contrajo fiebre tifoidea, lo que lo llevó a una muerte prematura a este valiente héroe mexicano.
+           <div data-role="main" class="ui-content" align="center">
+               <div style="width:25%;">
+                 <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+                   <li class="ui-first-child ui-last-child"> <a href="http://www.biografiasyvidas.com/biografia/z/zaragoza.htm" target="_self" data-role="button">
+                     <h2>Biografia de Ignacio Zaragoza</h2>
+                   </a> </li>
+</ul>
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+</ul>
+
+               </div>
+             </div>
+             <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Luis David Delgado Jimenez</h4>
+        <h4> Aplicacion 6 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+</div>
+            
+</div>
+
+      </div> 
+     </div>
+           
+</body>
+</html>
